@@ -1,0 +1,53 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.custom-wrapper{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.wrap-element{
+    padding-top : 1rem;
+    padding-left: 1rem;
+}
+
+.wrap-element img{
+    height: 8rem !important;
+    padding : 0.2rem;
+    margin : 0.2rem;
+}
+
+.z-depth-1-half {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15)!important;
+}
+
+/* [1] The container */
+.img-hover-zoom {
+    
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom  {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover  {
+    transform: scale(1.05);
+  }
+
+
